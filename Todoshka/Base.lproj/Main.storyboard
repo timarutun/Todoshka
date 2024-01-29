@@ -30,7 +30,13 @@
                             <outlet property="delegate" destination="JSq-9k-esj" id="8WP-4O-KOA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoshka" id="QWe-1W-AuS"/>
+                    <navigationItem key="navigationItem" title="Todoshka" id="QWe-1W-AuS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="x8X-w1-I6I">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="JSq-9k-esj" id="hOF-8w-7la"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="piN-yT-g8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
