@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Todoshka-->
+        <!--Items-->
         <scene sceneID="kIH-pX-YOK">
             <objects>
                 <tableViewController id="JSq-9k-esj" customClass="ToDoListViewController" customModule="Todoshka" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,7 +38,7 @@
                             <outlet property="delegate" destination="JSq-9k-esj" id="8WP-4O-KOA"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoshka" id="QWe-1W-AuS">
+                    <navigationItem key="navigationItem" title="Items" id="QWe-1W-AuS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="x8X-w1-I6I">
                             <connections>
                                 <action selector="addButtonPressed:" destination="JSq-9k-esj" id="hOF-8w-7la"/>
@@ -48,7 +48,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="piN-yT-g8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573.2824427480916" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2210" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BFI-93-ot2">
@@ -62,12 +62,50 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="JSq-9k-esj" kind="relationship" relationship="rootViewController" id="3ih-Df-PTs"/>
+                        <segue destination="dNi-x9-bHF" kind="relationship" relationship="rootViewController" id="Vnf-Mc-uzD"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3v-BZ-XFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="646.56488549618314" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="511" y="4"/>
+        </scene>
+        <!--Todoshka-->
+        <scene sceneID="Pwf-ym-LOf">
+            <objects>
+                <tableViewController id="dNi-x9-bHF" customClass="CategoryViewController" customModule="Todoshka" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wlc-an-jxA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="hNv-a1-Nf6">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hNv-a1-Nf6" id="lr9-yB-ILW">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dNi-x9-bHF" id="2pE-tu-IHY"/>
+                            <outlet property="delegate" destination="dNi-x9-bHF" id="Sbq-dS-BTk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Todoshka" id="U1W-ig-LCJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lXo-UI-v58">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="dNi-x9-bHF" id="SY9-KD-Mi2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="JSq-9k-esj" kind="show" identifier="goToItems" id="L7Z-yc-Zbr"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="niV-Cc-iXa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="4"/>
         </scene>
     </scenes>
     <resources>

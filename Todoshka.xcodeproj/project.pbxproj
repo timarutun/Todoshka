@@ -17,6 +17,7 @@
 		395E52D72B66242400513D5D /* TodoshkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E52D62B66242400513D5D /* TodoshkaTests.swift */; };
 		395E52E12B66242500513D5D /* TodoshkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E52E02B66242500513D5D /* TodoshkaUITests.swift */; };
 		395E52E32B66242500513D5D /* TodoshkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E52E22B66242500513D5D /* TodoshkaUITestsLaunchTests.swift */; };
+		397333E42B774082004C5D9B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397333E32B774082004C5D9B /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		395E52DC2B66242500513D5D /* TodoshkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoshkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395E52E02B66242500513D5D /* TodoshkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoshkaUITests.swift; sourceTree = "<group>"; };
 		395E52E22B66242500513D5D /* TodoshkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoshkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		397333E32B774082004C5D9B /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoshka/Views/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		391A99B82B6B622300051EC1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				397333E32B774082004C5D9B /* CategoryViewController.swift */,
 				395E52C32B66242200513D5D /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397333E42B774082004C5D9B /* CategoryViewController.swift in Sources */,
 				39507B5A2B6F753700791774 /* DataModel.xcdatamodeld in Sources */,
 				395E52C42B66242200513D5D /* ToDoListViewController.swift in Sources */,
 				395E52C02B66242200513D5D /* AppDelegate.swift in Sources */,
