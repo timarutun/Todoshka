@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFCDFA86BFC9F5DB1C7389DC58D9621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2430A615D63A55F05925B865FC7857CE /* Pods-TodoshkaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761C15850C1196217CB1203F3B47F778 /* Pods-TodoshkaTests-dummy.m */; };
+		24C025F1306832A4431E96E7F25EB0BF /* Pods-Todoshka-TodoshkaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1360B824AE43C2ABE3ADDCFBBB057197 /* Pods-Todoshka-TodoshkaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307D121CB61958A638ECDF915F9704CB /* Pods-Todoshka-TodoshkaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F84E63F202A14DE9C88EA7868A4FF320 /* Pods-Todoshka-TodoshkaUITests-dummy.m */; };
+		58B4487B6CE8297B1D9855B1B3ABD57D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E252E8EA404D551F3281E60C9743244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0963BE0F49B031A82C5BBE57207C3B2 /* Pods-Todoshka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8E45F6D03136786BE8D9BF79F32A9A /* Pods-Todoshka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC85DA66B303E5138CF6AEF4D9CA4AB /* Pods-TodoshkaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D4E894E6F5DD427A69975AB9CD97E9 /* Pods-TodoshkaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDCFA91C7BD96C8DE83FCA42F397444 /* Pods-Todoshka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2533BD971CD756B06FCDB365B732D /* Pods-Todoshka-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9D4BEC7CA7F268DEF8E1D28FB3E30EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D420E8AF342BCFAF6FFB0E5D1ED4DF7;
+			remoteInfo = "Pods-Todoshka";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1360B824AE43C2ABE3ADDCFBBB057197 /* Pods-Todoshka-TodoshkaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todoshka-TodoshkaUITests-umbrella.h"; sourceTree = "<group>"; };
+		27F598E0DCE680EB62223152BB5CFEBB /* Pods-TodoshkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoshkaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B8D1354FAB7D749DA420493810FD721 /* Pods-TodoshkaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoshkaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30E2DF42E07400D37EAC2D5F5BBFA776 /* Pods-Todoshka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todoshka.release.xcconfig"; sourceTree = "<group>"; };
+		33D4E894E6F5DD427A69975AB9CD97E9 /* Pods-TodoshkaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodoshkaTests-umbrella.h"; sourceTree = "<group>"; };
+		3E0F564C606DFD1633E08BA9B9AB672D /* Pods-Todoshka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Todoshka.modulemap"; sourceTree = "<group>"; };
+		3F8A81018E0AF6CAF64FB4EB0016A766 /* Pods-Todoshka-TodoshkaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Todoshka-TodoshkaUITests.modulemap"; sourceTree = "<group>"; };
+		469162D6F6B125DCE7800DAEA6AFCB30 /* Pods-Todoshka-TodoshkaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todoshka-TodoshkaUITests-Info.plist"; sourceTree = "<group>"; };
+		52F804251E83C66AC254F9A2F9AA8C34 /* Pods-TodoshkaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodoshkaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63A895E260643510AB2F5751081CF3C2 /* Pods-TodoshkaTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TodoshkaTests"; path = Pods_TodoshkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		761C15850C1196217CB1203F3B47F778 /* Pods-TodoshkaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodoshkaTests-dummy.m"; sourceTree = "<group>"; };
+		819511DFA7ACF272148FC3F8A624291B /* Pods-Todoshka-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todoshka-acknowledgements.plist"; sourceTree = "<group>"; };
+		8269EAB320E41C483869EB540E1E6904 /* Pods-Todoshka-TodoshkaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todoshka-TodoshkaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84E2533BD971CD756B06FCDB365B732D /* Pods-Todoshka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todoshka-dummy.m"; sourceTree = "<group>"; };
+		94531D454FF7905B62F2AF4C649B3602 /* Pods-TodoshkaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodoshkaTests-Info.plist"; sourceTree = "<group>"; };
+		9C508B924BAFA9F872112C47EA45F437 /* Pods-Todoshka-TodoshkaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Todoshka-TodoshkaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8E45F6D03136786BE8D9BF79F32A9A /* Pods-Todoshka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Todoshka-umbrella.h"; sourceTree = "<group>"; };
+		B5E86A85AA3CB55D2FDA781DE3159699 /* Pods-Todoshka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todoshka.debug.xcconfig"; sourceTree = "<group>"; };
+		C214C20BEAFC8A06BA7499CCBEC20845 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todoshka-TodoshkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8A75FF9577CFD45B3D426EA9E634F8 /* Pods-Todoshka-TodoshkaUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Todoshka-TodoshkaUITests"; path = Pods_Todoshka_TodoshkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C969AAF7FC4432F3221E623E79850E /* Pods-Todoshka-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Todoshka-Info.plist"; sourceTree = "<group>"; };
+		EB803052AAB3AECC407E0385B5E73C2C /* Pods-TodoshkaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TodoshkaTests.modulemap"; sourceTree = "<group>"; };
+		EFC71578D8BE15CEC8BAFC9D0929387E /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Todoshka-TodoshkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6DD46E487232EB51F95A3C9FAB5CEF7 /* Pods-Todoshka */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Todoshka"; path = Pods_Todoshka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84E63F202A14DE9C88EA7868A4FF320 /* Pods-Todoshka-TodoshkaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Todoshka-TodoshkaUITests-dummy.m"; sourceTree = "<group>"; };
+		F9E425D3DF034AEA1FDCFD3FDA7E6323 /* Pods-TodoshkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodoshkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE223DD2C842946B5E73D95C1AC2E045 /* Pods-Todoshka-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Todoshka-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F14BCB857B45709FC9EE6B8283B5316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFCDFA86BFC9F5DB1C7389DC58D9621 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2997D36A7E1CB55BE2339209FB79503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E252E8EA404D551F3281E60C9743244 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBFC35ADA938E187F3F7BDCA4E22332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B4487B6CE8297B1D9855B1B3ABD57D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C661CE00C8E93D18778063C284B8FE3 /* Pods-Todoshka */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F564C606DFD1633E08BA9B9AB672D /* Pods-Todoshka.modulemap */,
+				FE223DD2C842946B5E73D95C1AC2E045 /* Pods-Todoshka-acknowledgements.markdown */,
+				819511DFA7ACF272148FC3F8A624291B /* Pods-Todoshka-acknowledgements.plist */,
+				84E2533BD971CD756B06FCDB365B732D /* Pods-Todoshka-dummy.m */,
+				E1C969AAF7FC4432F3221E623E79850E /* Pods-Todoshka-Info.plist */,
+				9F8E45F6D03136786BE8D9BF79F32A9A /* Pods-Todoshka-umbrella.h */,
+				B5E86A85AA3CB55D2FDA781DE3159699 /* Pods-Todoshka.debug.xcconfig */,
+				30E2DF42E07400D37EAC2D5F5BBFA776 /* Pods-Todoshka.release.xcconfig */,
+			);
+			name = "Pods-Todoshka";
+			path = "Target Support Files/Pods-Todoshka";
+			sourceTree = "<group>";
+		};
+		4B3D804BF18A92009AAC9887E61A5EC4 /* Pods-Todoshka-TodoshkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A81018E0AF6CAF64FB4EB0016A766 /* Pods-Todoshka-TodoshkaUITests.modulemap */,
+				9C508B924BAFA9F872112C47EA45F437 /* Pods-Todoshka-TodoshkaUITests-acknowledgements.markdown */,
+				8269EAB320E41C483869EB540E1E6904 /* Pods-Todoshka-TodoshkaUITests-acknowledgements.plist */,
+				F84E63F202A14DE9C88EA7868A4FF320 /* Pods-Todoshka-TodoshkaUITests-dummy.m */,
+				469162D6F6B125DCE7800DAEA6AFCB30 /* Pods-Todoshka-TodoshkaUITests-Info.plist */,
+				1360B824AE43C2ABE3ADDCFBBB057197 /* Pods-Todoshka-TodoshkaUITests-umbrella.h */,
+				C214C20BEAFC8A06BA7499CCBEC20845 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */,
+				EFC71578D8BE15CEC8BAFC9D0929387E /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */,
+			);
+			name = "Pods-Todoshka-TodoshkaUITests";
+			path = "Target Support Files/Pods-Todoshka-TodoshkaUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6ADC7A952B2DE2D4CF0ADB18DD9F73C3 /* Pods-TodoshkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB803052AAB3AECC407E0385B5E73C2C /* Pods-TodoshkaTests.modulemap */,
+				52F804251E83C66AC254F9A2F9AA8C34 /* Pods-TodoshkaTests-acknowledgements.markdown */,
+				2B8D1354FAB7D749DA420493810FD721 /* Pods-TodoshkaTests-acknowledgements.plist */,
+				761C15850C1196217CB1203F3B47F778 /* Pods-TodoshkaTests-dummy.m */,
+				94531D454FF7905B62F2AF4C649B3602 /* Pods-TodoshkaTests-Info.plist */,
+				33D4E894E6F5DD427A69975AB9CD97E9 /* Pods-TodoshkaTests-umbrella.h */,
+				F9E425D3DF034AEA1FDCFD3FDA7E6323 /* Pods-TodoshkaTests.debug.xcconfig */,
+				27F598E0DCE680EB62223152BB5CFEBB /* Pods-TodoshkaTests.release.xcconfig */,
+			);
+			name = "Pods-TodoshkaTests";
+			path = "Target Support Files/Pods-TodoshkaTests";
+			sourceTree = "<group>";
+		};
+		BC11AA7498FB62E631E5BFCFFF2ABC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD46E487232EB51F95A3C9FAB5CEF7 /* Pods-Todoshka */,
+				CB8A75FF9577CFD45B3D426EA9E634F8 /* Pods-Todoshka-TodoshkaUITests */,
+				63A895E260643510AB2F5751081CF3C2 /* Pods-TodoshkaTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BC11AA7498FB62E631E5BFCFFF2ABC54 /* Products */,
+				EFEAEA98825617D22346989DC15FACCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFEAEA98825617D22346989DC15FACCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C661CE00C8E93D18778063C284B8FE3 /* Pods-Todoshka */,
+				4B3D804BF18A92009AAC9887E61A5EC4 /* Pods-Todoshka-TodoshkaUITests */,
+				6ADC7A952B2DE2D4CF0ADB18DD9F73C3 /* Pods-TodoshkaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03B08B5C9AF59B213BCDF6B5E1A73BD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC85DA66B303E5138CF6AEF4D9CA4AB /* Pods-TodoshkaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A24E6398DB4B2983F12701C415B203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C025F1306832A4431E96E7F25EB0BF /* Pods-Todoshka-TodoshkaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75468897ECBA96F2D0FA23147F05D3F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0963BE0F49B031A82C5BBE57207C3B2 /* Pods-Todoshka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D661F9EB3B43641D069F4CE777DAC71 /* Pods-Todoshka-TodoshkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B7A2FA797CB5726EAF83B4E17B69E6 /* Build configuration list for PBXNativeTarget "Pods-Todoshka-TodoshkaUITests" */;
+			buildPhases = (
+				72A24E6398DB4B2983F12701C415B203 /* Headers */,
+				3BAEFB27497E9823F331CC0DFF4961F5 /* Sources */,
+				6F14BCB857B45709FC9EE6B8283B5316 /* Frameworks */,
+				FA6350EEA463E8F53926954452823B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Todoshka-TodoshkaUITests";
+			productName = Pods_Todoshka_TodoshkaUITests;
+			productReference = CB8A75FF9577CFD45B3D426EA9E634F8 /* Pods-Todoshka-TodoshkaUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D420E8AF342BCFAF6FFB0E5D1ED4DF7 /* Pods-Todoshka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1095F4E5FB051A968969533AFFC55C8 /* Build configuration list for PBXNativeTarget "Pods-Todoshka" */;
+			buildPhases = (
+				75468897ECBA96F2D0FA23147F05D3F7 /* Headers */,
+				7AC5FC3F7CF8708855F2DAFA17FF6F3E /* Sources */,
+				E2997D36A7E1CB55BE2339209FB79503 /* Frameworks */,
+				5C0743588DC5C1E1F420A0D000F026F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Todoshka";
+			productName = Pods_Todoshka;
+			productReference = F6DD46E487232EB51F95A3C9FAB5CEF7 /* Pods-Todoshka */;
+			productType = "com.apple.product-type.framework";
+		};
+		F973698C8CCB29C73A3ABE2FAD99FA18 /* Pods-TodoshkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B029C6183B8A89E71BFABC9FA022BFB /* Build configuration list for PBXNativeTarget "Pods-TodoshkaTests" */;
+			buildPhases = (
+				03B08B5C9AF59B213BCDF6B5E1A73BD7 /* Headers */,
+				7D0911F864D7F47829397283BBCD67B8 /* Sources */,
+				FFBFC35ADA938E187F3F7BDCA4E22332 /* Frameworks */,
+				6E4404E284F814A1FA1AEF76D07636B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C52E75B47FB915BAA1D3D7FE6940D49 /* PBXTargetDependency */,
+			);
+			name = "Pods-TodoshkaTests";
+			productName = Pods_TodoshkaTests;
+			productReference = 63A895E260643510AB2F5751081CF3C2 /* Pods-TodoshkaTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC11AA7498FB62E631E5BFCFFF2ABC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D420E8AF342BCFAF6FFB0E5D1ED4DF7 /* Pods-Todoshka */,
+				3D661F9EB3B43641D069F4CE777DAC71 /* Pods-Todoshka-TodoshkaUITests */,
+				F973698C8CCB29C73A3ABE2FAD99FA18 /* Pods-TodoshkaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0743588DC5C1E1F420A0D000F026F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4404E284F814A1FA1AEF76D07636B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6350EEA463E8F53926954452823B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAEFB27497E9823F331CC0DFF4961F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307D121CB61958A638ECDF915F9704CB /* Pods-Todoshka-TodoshkaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC5FC3F7CF8708855F2DAFA17FF6F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCFA91C7BD96C8DE83FCA42F397444 /* Pods-Todoshka-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0911F864D7F47829397283BBCD67B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2430A615D63A55F05925B865FC7857CE /* Pods-TodoshkaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C52E75B47FB915BAA1D3D7FE6940D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Todoshka";
+			target = 9D420E8AF342BCFAF6FFB0E5D1ED4DF7 /* Pods-Todoshka */;
+			targetProxy = C9D4BEC7CA7F268DEF8E1D28FB3E30EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		27BC2B6506772838AFE49EFBCBE2BF94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F598E0DCE680EB62223152BB5CFEBB /* Pods-TodoshkaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		286D75D595C49F863876224109119269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E2DF42E07400D37EAC2D5F5BBFA776 /* Pods-Todoshka.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todoshka/Pods-Todoshka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Todoshka/Pods-Todoshka.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97D6D3A8AB130FD090708A9253D5B894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC71578D8BE15CEC8BAFC9D0929387E /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A462442E06DD895F919098BC9ABF8F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C214C20BEAFC8A06BA7499CCBEC20845 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE26B2D4CF1219F9BDEFCB3EE964B07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E86A85AA3CB55D2FDA781DE3159699 /* Pods-Todoshka.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Todoshka/Pods-Todoshka-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Todoshka/Pods-Todoshka.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F350282247E13F8322E1EC33061CD07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E425D3DF034AEA1FDCFD3FDA7E6323 /* Pods-TodoshkaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B029C6183B8A89E71BFABC9FA022BFB /* Build configuration list for PBXNativeTarget "Pods-TodoshkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F350282247E13F8322E1EC33061CD07C /* Debug */,
+				27BC2B6506772838AFE49EFBCBE2BF94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1095F4E5FB051A968969533AFFC55C8 /* Build configuration list for PBXNativeTarget "Pods-Todoshka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26B2D4CF1219F9BDEFCB3EE964B07A /* Debug */,
+				286D75D595C49F863876224109119269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B7A2FA797CB5726EAF83B4E17B69E6 /* Build configuration list for PBXNativeTarget "Pods-Todoshka-TodoshkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A462442E06DD895F919098BC9ABF8F22 /* Debug */,
+				97D6D3A8AB130FD090708A9253D5B894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

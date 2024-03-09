@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390F83D32B9ADF2200331493 /* Chameleon in Frameworks */ = {isa = PBXBuildFile; productRef = 390F83D22B9ADF2200331493 /* Chameleon */; };
 		392D12D52B8F094F005D3CFF /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 392D12D42B8F094F005D3CFF /* SwipeCellKit */; };
 		395E52C02B66242200513D5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E52BF2B66242200513D5D /* AppDelegate.swift */; };
 		395E52C22B66242200513D5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395E52C12B66242200513D5D /* SceneDelegate.swift */; };
@@ -23,6 +24,9 @@
 		39BA0EC62B7EE982001B41FD /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 39BA0EC52B7EE982001B41FD /* RealmSwift */; };
 		39C4CD3D2B84740200D3F591 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4CD3C2B84740200D3F591 /* Item.swift */; };
 		39C4CD3F2B84741000D3F591 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4CD3E2B84741000D3F591 /* Category.swift */; };
+		4D6E5DCE53402D6218F24C37 /* Pods_Todoshka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3FCC662B99323223B304CF /* Pods_Todoshka.framework */; };
+		842317496A82FC5F96512340 /* Pods_Todoshka_TodoshkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6778789DB19E541E1768F154 /* Pods_Todoshka_TodoshkaUITests.framework */; };
+		8E1684A0B119BA03DB80DCA2 /* Pods_TodoshkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD1078749EA74CCC4124EDD /* Pods_TodoshkaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106BF49D35761AE3C5E99703 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoshka-TodoshkaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		395E52BC2B66242200513D5D /* Todoshka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoshka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395E52BF2B66242200513D5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		395E52C12B66242200513D5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +65,14 @@
 		39AC32F52B919E23009226A8 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		39C4CD3C2B84740200D3F591 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		39C4CD3E2B84741000D3F591 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4AD1078749EA74CCC4124EDD /* Pods_TodoshkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoshkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC9CC7ED26D534ACAD14B91 /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoshka-TodoshkaUITests.release.xcconfig"; path = "Target Support Files/Pods-Todoshka-TodoshkaUITests/Pods-Todoshka-TodoshkaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6778789DB19E541E1768F154 /* Pods_Todoshka_TodoshkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoshka_TodoshkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7339F2F82C962185D1F00BE0 /* Pods-Todoshka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoshka.debug.xcconfig"; path = "Target Support Files/Pods-Todoshka/Pods-Todoshka.debug.xcconfig"; sourceTree = "<group>"; };
+		80599FAFB5CC8B181FCC4AE3 /* Pods-TodoshkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoshkaTests.debug.xcconfig"; path = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A26FDA9D598D6F4FE4104272 /* Pods-TodoshkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoshkaTests.release.xcconfig"; path = "Target Support Files/Pods-TodoshkaTests/Pods-TodoshkaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C607842F0461B8950214A360 /* Pods-Todoshka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoshka.release.xcconfig"; path = "Target Support Files/Pods-Todoshka/Pods-Todoshka.release.xcconfig"; sourceTree = "<group>"; };
+		CB3FCC662B99323223B304CF /* Pods_Todoshka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoshka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +83,8 @@
 				39BA0EC62B7EE982001B41FD /* RealmSwift in Frameworks */,
 				392D12D52B8F094F005D3CFF /* SwipeCellKit in Frameworks */,
 				39BA0EC42B7EE982001B41FD /* Realm in Frameworks */,
+				390F83D32B9ADF2200331493 /* Chameleon in Frameworks */,
+				4D6E5DCE53402D6218F24C37 /* Pods_Todoshka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1684A0B119BA03DB80DCA2 /* Pods_TodoshkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842317496A82FC5F96512340 /* Pods_Todoshka_TodoshkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067F0841F3D9C9FCB2908FA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3FCC662B99323223B304CF /* Pods_Todoshka.framework */,
+				6778789DB19E541E1768F154 /* Pods_Todoshka_TodoshkaUITests.framework */,
+				4AD1078749EA74CCC4124EDD /* Pods_TodoshkaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D90427538824FD3786D453 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7339F2F82C962185D1F00BE0 /* Pods-Todoshka.debug.xcconfig */,
+				C607842F0461B8950214A360 /* Pods-Todoshka.release.xcconfig */,
+				106BF49D35761AE3C5E99703 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */,
+				5CC9CC7ED26D534ACAD14B91 /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */,
+				80599FAFB5CC8B181FCC4AE3 /* Pods-TodoshkaTests.debug.xcconfig */,
+				A26FDA9D598D6F4FE4104272 /* Pods-TodoshkaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		391A99B72B6B61E000051EC1 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +173,8 @@
 				395E52D52B66242400513D5D /* TodoshkaTests */,
 				395E52DF2B66242500513D5D /* TodoshkaUITests */,
 				395E52BD2B66242200513D5D /* Products */,
+				27D90427538824FD3786D453 /* Pods */,
+				067F0841F3D9C9FCB2908FA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395E52E62B66242500513D5D /* Build configuration list for PBXNativeTarget "Todoshka" */;
 			buildPhases = (
+				BDC6D6587D069CFA0C53C8D7 /* [CP] Check Pods Manifest.lock */,
 				395E52B82B66242200513D5D /* Sources */,
 				395E52B92B66242200513D5D /* Frameworks */,
 				395E52BA2B66242200513D5D /* Resources */,
@@ -197,6 +240,7 @@
 				39BA0EC32B7EE982001B41FD /* Realm */,
 				39BA0EC52B7EE982001B41FD /* RealmSwift */,
 				392D12D42B8F094F005D3CFF /* SwipeCellKit */,
+				390F83D22B9ADF2200331493 /* Chameleon */,
 			);
 			productName = Todoshka;
 			productReference = 395E52BC2B66242200513D5D /* Todoshka.app */;
@@ -206,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395E52E92B66242500513D5D /* Build configuration list for PBXNativeTarget "TodoshkaTests" */;
 			buildPhases = (
+				FE6267C12C16821063F3F012 /* [CP] Check Pods Manifest.lock */,
 				395E52CE2B66242400513D5D /* Sources */,
 				395E52CF2B66242400513D5D /* Frameworks */,
 				395E52D02B66242400513D5D /* Resources */,
@@ -224,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395E52EC2B66242500513D5D /* Build configuration list for PBXNativeTarget "TodoshkaUITests" */;
 			buildPhases = (
+				5AB53E0E205488A1EB7549E6 /* [CP] Check Pods Manifest.lock */,
 				395E52D82B66242500513D5D /* Sources */,
 				395E52D92B66242500513D5D /* Frameworks */,
 				395E52DA2B66242500513D5D /* Resources */,
@@ -273,6 +319,7 @@
 			packageReferences = (
 				396FD58D2B7DD93F00E679B7 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				392D12D32B8F094F005D3CFF /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				390F83D12B9ADF2200331493 /* XCRemoteSwiftPackageReference "ChameleonFramework" */,
 			);
 			productRefGroup = 395E52BD2B66242200513D5D /* Products */;
 			projectDirPath = "";
@@ -311,6 +358,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB53E0E205488A1EB7549E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todoshka-TodoshkaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC6D6587D069CFA0C53C8D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todoshka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6267C12C16821063F3F012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodoshkaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		395E52B82B66242200513D5D /* Sources */ = {
@@ -500,6 +616,7 @@
 		};
 		395E52E72B66242500513D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7339F2F82C962185D1F00BE0 /* Pods-Todoshka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -528,6 +645,7 @@
 		};
 		395E52E82B66242500513D5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C607842F0461B8950214A360 /* Pods-Todoshka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -556,6 +674,7 @@
 		};
 		395E52EA2B66242500513D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80599FAFB5CC8B181FCC4AE3 /* Pods-TodoshkaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +695,7 @@
 		};
 		395E52EB2B66242500513D5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26FDA9D598D6F4FE4104272 /* Pods-TodoshkaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +716,7 @@
 		};
 		395E52ED2B66242500513D5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106BF49D35761AE3C5E99703 /* Pods-Todoshka-TodoshkaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,6 +735,7 @@
 		};
 		395E52EE2B66242500513D5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CC9CC7ED26D534ACAD14B91 /* Pods-Todoshka-TodoshkaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,6 +794,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		390F83D12B9ADF2200331493 /* XCRemoteSwiftPackageReference "ChameleonFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/starkdmi/ChameleonFramework.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		392D12D32B8F094F005D3CFF /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit.git";
@@ -691,6 +821,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		390F83D22B9ADF2200331493 /* Chameleon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 390F83D12B9ADF2200331493 /* XCRemoteSwiftPackageReference "ChameleonFramework" */;
+			productName = Chameleon;
+		};
 		392D12D42B8F094F005D3CFF /* SwipeCellKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 392D12D32B8F094F005D3CFF /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
